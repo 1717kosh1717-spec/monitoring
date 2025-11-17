@@ -14,10 +14,10 @@ mb_http_output('UTF-8');
 mb_language('uni');
 
 // E-mail для уведомлений.
-$email = 'mail@example.com';
+$email = 'sila-alliance@bk.ru';
 
 // За сколько отправлять уведомление.
-$warn = 259200; // 3 дня 
+$warn = 259200; // 7 дня 
 
 $domains = array(
 	'php.ru',
@@ -33,4 +33,5 @@ $certificates = array(
 	'php.net',
 	'habr.com',
 	'wikipedia.org',
+
 );
